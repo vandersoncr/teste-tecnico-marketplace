@@ -1,28 +1,44 @@
-Projeto de Automação Web  
+# Projeto de Automação Web
 
-Cenários de testes
-Criar novo Usuário
-Realizar login com credenciais Válidas
-Adicionar produto no carrinho
-Compra via cartão de crédito
-Compra via boleto bancário
+## Cenários de Testes
+- Criar novo Usuário  
+- Realizar login com credenciais válidas  
+- Adicionar produto no carrinho  
+- Compra via cartão de crédito  
+- Compra via boleto bancário  
 
-Passo a passo para instalação
-Baixar o Node atráves do link: https://nodejs.org/en/
-Instalar o Node
-Verificar se o Node Foi instalado corretamente abrindo o cmd e digitando: $ node --version
-Instalar o npm no path do computador atráves do comando: $ npm install
-Verificar se o npm foi instalado corretamente atráves do comando: $ npm --version
-Instalar cypress atráves do comando: $ npm install cypress --save-dev
-Verificar se o cypress foi instalado corretamente atráves do comando: npx cypress --version
-Instalar o cypress atráves do comando: npm install cypress --save-dev
-Instalar o Mocha Report atráves do comando: npm install mochawesome@7.1.3 --save-dev
+## Passo a Passo para Instalação
 
-Execução no front
+1. **Baixar o Node.js** através do link: [Node.js](https://nodejs.org/en/)  
+2. **Instalar o Node.js**  
+3. **Verificar se o Node.js foi instalado corretamente** abrindo o terminal e digitando:  
+   node --version
+
+4. **Instalar o npm no path do computador** através do comando:  
+   npm install
+
+5. **Verificar se o npm foi instalado corretamente** através do comando:  
+   npm --version
+
+6. **Instalar Cypress** através do comando:  
+   npm install cypress --save-dev
+
+7. **Verificar se o Cypress foi instalado corretamente** através do comando:  
+   npx cypress --version
+
+8. **Instalar o Mocha Report** através do comando:  
+   npm install mochawesome@7.1.3 --save-dev
+ 
+
+## Execução dos Testes
+
+### **Execução no modo interativo (GUI)**
 npx cypress open
 
-Execução no Headless
+### **Execução no modo Headless**
 npx cypress run
 
-Executar com Report
+### **Executar com Report**
 npx cypress run --reporter mochawesome
+
+
