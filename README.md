@@ -1,13 +1,13 @@
-#Projeto de Automação Web  
+Projeto de Automação Web  
 
-#Cenários de testes
+Cenários de testes
 Criar novo Usuário
 Realizar login com credenciais Válidas
 Adicionar produto no carrinho
 Compra via cartão de crédito
 Compra via boleto bancário
 
-#Passo a passo para instalação
+Passo a passo para instalação
 Baixar o Node atráves do link: https://nodejs.org/en/
 Instalar o Node
 Verificar se o Node Foi instalado corretamente abrindo o cmd e digitando: $ node --version
@@ -18,11 +18,11 @@ Verificar se o cypress foi instalado corretamente atráves do comando: npx cypre
 Instalar o cypress atráves do comando: npm install cypress --save-dev
 Instalar o Mocha Report atráves do comando: npm install mochawesome@7.1.3 --save-dev
 
-#Execução no front
+Execução no front
 npx cypress open
 
-#Execução no Headless
+Execução no Headless
 npx cypress run
 
-#Executar com Report
+Executar com Report
 npx cypress run --reporter mochawesome
